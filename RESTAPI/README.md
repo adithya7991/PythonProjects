@@ -32,5 +32,6 @@ DEL    | /item/name
 
 ## Run
 ```
+cd code
 python app.py
 ```
