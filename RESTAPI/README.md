@@ -21,14 +21,14 @@ Method | Endpoint
 POST   | /register
 POST   | /login
 POST   | /store
-GET    | /store/<name>
+GET    | /store/name
 GET    | /stores
-DEL    | /store/<name>
+DEL    | /store/name
 POST   | /item
-PUT    | /item/<name>
-GET    | /item/<name>
+PUT    | /item/name
+GET    | /item/name
 GET    | /items
-DEL    | /item/<name>
+DEL    | /item/name
 
 ## Run
 ```
