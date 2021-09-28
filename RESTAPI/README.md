@@ -14,6 +14,7 @@ pip install -r requirements.txt
 ## Description
 This is a Store API project created based on REST principles and flask-jwt is used for user authentication and session management.
 For database, SQlite 3 is used and Object relational mapper is used to perform operations on DB.
+**NOTE:** The same project deployed in Heroku with Postgres as DB
 Below are the list of APIs exposed:
 
 Method | Endpoint
