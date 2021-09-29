@@ -12,7 +12,7 @@ class StoreModel(db.Model):
         self.name = name        
 
     def json(self):
-        return {"name": self.name, "items": [item.json() for item in self.items.all()]}
+        return {"id": self.id, "name": self.name, "items": [item.json() for item in self.items.all()]}
         # If lazy='dynamic' is used, all items obj of this store will be created only when we do self.items.all()
         # If not, then all items obj of this store will be stored in self.items when StoreModel gets created
             # and v can call then as self.items
